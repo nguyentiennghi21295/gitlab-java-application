@@ -17,6 +17,6 @@ smoke test:
   before_script:
     - apk --no-cache add curl
   script:
-    - java -jar ./build/libs/car-api.jar &
+    - java -jar ./build/libs/cars-api.jar &
     - sleep 30
     - curl http://localhost:5000/actuator/health | grep -i "UP"
