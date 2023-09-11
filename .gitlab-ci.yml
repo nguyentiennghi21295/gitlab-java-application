@@ -10,7 +10,7 @@ build:
   artifacts:
     paths:
       - ./build/libs/
-
+#sqdsqdqsdsqd
 smoke test:
   stage: test
   image: openjdk:12-alpine
